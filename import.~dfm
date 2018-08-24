@@ -1,6 +1,6 @@
 object Form1: TForm1
-  Left = 192
-  Top = 125
+  Left = 218
+  Top = 179
   Width = 928
   Height = 480
   Caption = 'Form1'
@@ -43,7 +43,7 @@ object Form1: TForm1
     TabOrder = 1
   end
   object Button1: TButton
-    Left = 280
+    Left = 96
     Top = 136
     Width = 257
     Height = 25
@@ -52,8 +52,8 @@ object Form1: TForm1
     OnClick = Button1Click
   end
   object Button2: TButton
-    Left = 280
-    Top = 176
+    Left = 96
+    Top = 168
     Width = 257
     Height = 25
     Caption = 'Import Data Customer'
@@ -61,8 +61,8 @@ object Form1: TForm1
     OnClick = Button2Click
   end
   object Button3: TButton
-    Left = 280
-    Top = 216
+    Left = 96
+    Top = 200
     Width = 257
     Height = 25
     Caption = 'Import Data Barang'
@@ -77,6 +77,60 @@ object Form1: TForm1
     Caption = 'Exit'
     TabOrder = 5
     OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 96
+    Top = 232
+    Width = 257
+    Height = 25
+    Caption = 'Import Faktur Pembelian DTL'
+    TabOrder = 6
+    OnClick = Button5Click
+  end
+  object Button6: TButton
+    Left = 96
+    Top = 264
+    Width = 257
+    Height = 25
+    Caption = 'Import Faktur Pembelian HDR'
+    TabOrder = 7
+    OnClick = Button6Click
+  end
+  object Button7: TButton
+    Left = 432
+    Top = 136
+    Width = 257
+    Height = 25
+    Caption = 'Import Faktur Penjualan DTL'
+    TabOrder = 8
+    OnClick = Button7Click
+  end
+  object Button8: TButton
+    Left = 432
+    Top = 168
+    Width = 257
+    Height = 25
+    Caption = 'Import Faktur Penjualan HDR'
+    TabOrder = 9
+    OnClick = Button8Click
+  end
+  object Button9: TButton
+    Left = 432
+    Top = 200
+    Width = 257
+    Height = 25
+    Caption = 'Import Item HPP Hist'
+    TabOrder = 10
+    OnClick = Button9Click
+  end
+  object Button10: TButton
+    Left = 432
+    Top = 232
+    Width = 257
+    Height = 25
+    Caption = 'Import Stock Card'
+    TabOrder = 11
+    OnClick = Button10Click
   end
   object ZConnection1: TZConnection
     ControlsCodePage = cGET_ACP
